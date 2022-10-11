@@ -1,8 +1,8 @@
-Read-from-CSV
-AIM:
+##Read-from-CSV
+##AIM:
 
 To read a csv file and access the data
-ALGORITHM:
+##ALGORITHM:
 Step 1:
 
 Start python for doing the reading from CSV.
