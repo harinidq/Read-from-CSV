@@ -34,3 +34,10 @@ print(df.head(10))
 print(df.tail())
 print("Column",len(df.axes[0]))
 print("Row",len(df.axes[1]))
+
+OUTPUT:-
+file:///home/sec/Pictures/Screenshots/Screenshot%20from%202022-10-11%2013-28-45.png![image](https://user-images.githubusercontent.com/113497680/195034023-e189bd2c-767e-4517-b40a-f192d5c7847f.png)
+
+RESULT:
+
+Therefore the program is successfully executed to read csv file and access the data in it.
