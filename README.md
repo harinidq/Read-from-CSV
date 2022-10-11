@@ -1,43 +1,46 @@
-##Read-from-CSV
-##AIM:
+# Read-from-CSV
 
-To read a csv file and access the data
-##ALGORITHM:
-Step 1:
+## AIM:
+  To write a python program for reading the csv file content.
 
-Start python for doing the reading from CSV.
-Step 2:
+## ALGORITHM:
+### Step 1:
+   Load the CSV into a DataFrame.
+   
+### Step 2:
+   Print the number of contents to be displayed using df.head().
 
-Import the required csv file.
-Step 3:
+### Step 3:
+   The number of rows returned is defined in Pandas option settings.
 
-Import pandas
-Step 4:
+### Step 4:
+   Check your system's maximum column with the pd.options.display.max_column statement.
+   
+### Step 5:
+   Increase the maximum number of rows to display the entire DataFrame.
 
-Read the csv file by using df.read.
-Step 5:
 
-Display the Columns.
-Step 6:
+## PROGRAM:
 
-Display the Rows.
-Step 7:
-
-End the program
-PROGRAM:
 ```
-#Developed by :m.d.harini
-#Reference Number : 22001980
+## Developed by:m.d.harini
+## REGISTER NUMBER: 22001980
+
 import pandas as pd
 df = pd.read_csv('nba.csv')
 print(df.head(10))
 print(df.tail())
-print("Column",len(df.axes[0]))
-print("Row",len(df.axes[1]))
+print("rows",len(df.axes[0]))
+print("columns",len(df.axes[1]))
+
 ```
-OUTPUT:-
-file:///home/sec/Pictures/Screenshots/Screenshot%20from%202022-10-11%2013-28-45.png![image](https://user-images.githubusercontent.com/113497680/195034023-e189bd2c-767e-4517-b40a-f192d5c7847f.png)
 
-RESULT:
+## OUTPUT:
 
-Therefore the program is successfully executed to read csv file and access the data in it.
+![image](https://user-images.githubusercontent.com/113497680/195042066-cd80ccc7-1fee-444f-b720-b17dfdcc471f.png)
+
+
+
+## RESULT:
+
+Thus the program is written to read the csv file.
